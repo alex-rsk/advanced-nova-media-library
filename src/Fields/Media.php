@@ -209,8 +209,8 @@ class Media extends Field
 
     private function setOrder($ids)
     {
-        $mediaClass = config('media-library.media_model');
-        $mediaClass::setNewOrder($ids);
+/*        $mediaClass = config('media-library.media_model');
+$mediaClass::setNewOrder($ids); */
     }
 
     private function addNewMedia(NovaRequest $request, $data, HasMedia $model, string $collection, string $requestAttribute): Collection
