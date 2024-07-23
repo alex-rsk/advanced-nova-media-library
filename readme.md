@@ -27,7 +27,7 @@ images and order them by drag and drop.
 
 ## Install
 ```bash
-composer require ebess/advanced-nova-media-library
+composer require ebess/advanced-nova-media-library-mod-alexrsk
 ```
 
 ```bash
